@@ -1,6 +1,7 @@
 using MLStyle
 using SimpleGraphs
 using SimplePosets
+import MacroTools: prewalk, postwalk, @q, striplines, replace, flatten, @capture
 
 expr(x) = :(identity($x))
 
