@@ -1,6 +1,7 @@
 module SossBase
 
 import Base.rand
+using NamedTupleTools
 
 include("core/statement.jl")
 include("core/model.jl")
