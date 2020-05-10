@@ -12,7 +12,7 @@ include("core/toposort.jl")
 include("core/utils.jl")
 
 include("primitives/rand.jl")
-include("primitives/logpdf.jl")
+include("primitives/logdensity.jl")
 include("primitives/likelihood-weighting.jl")
 
 
